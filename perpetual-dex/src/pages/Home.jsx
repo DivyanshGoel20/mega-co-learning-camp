@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "../components/HomeNavbar";
 import { Link } from "react-router-dom";
 import "../index.css";
 
 const Home = () => {
   return (
     <div style={styles.container}>
+      <Navbar />
       <h1 style={styles.heading}>
         Trade <span style={styles.highlight}>Perpetuals</span>
       </h1>
